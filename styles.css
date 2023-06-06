@@ -1,0 +1,23 @@
+#splash-wallpaper
+{
+    display: block;
+    background-image: url("{{ site.baseurl }}/assets/images/splash-wallpaper.jpg");
+    background-size: cover;
+    /* background-position: center;
+    background-repeat: no-repeat; */
+    height: 45rem;
+    width: 20rem;
+    position: fixed;
+    z-index: -1;
+}
+
+#paragraph-text
+{
+    /* display: block; */
+    margin: 0 5px 0 5px;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 2.5rem;
+    color: #000000;
+}
