@@ -1,9 +1,4 @@
 
-/* body
-{
-    overflow: hidden;
-} */
-
 #splash-wallpaper
 {
    position: absolute;
@@ -17,35 +12,40 @@
 
 .header
 {
-    margin: auto;
-    padding: 0%;
-    right: 0;
+    background-color: lightgray;
+    padding: 1.5%;
     font-size: 18px;
-    display: block;
-    position: absolute;
-    border: red 1px solid;
+    display: inline-block;
+    position: relative;
+    top: 85px;
+    left: 400px;
+    /* border: red 1px solid; */
 }
 
 form
 {
+    width: 49%;
     position: fixed;
-    right: 110%;
-    top: auto;
+    left: 400px;
+    top: 350px;
     padding: 10px;
     border: red 1px solid;
 }
 
-#user-info
+.form-container
 {
-    display: block;
-    position: absolute;
+    position: fixed;
+    top: 0;
     right: 0;
-    /* text-align: right; */
-    border: red 1px solid;
-    padding: 15px;
+    width: 30%; /* adjust the width as needed */
+    height: 100vh; /* takes full height of the viewport */
+    /* background-color: #f0f0f0; set desired background color */
+    padding: 20px; /* set desired padding */
+    box-sizing: border-box; /* include padding and border in the element's total width and height */  
 }
 
-.input
+
+/* .input
 {
     display: flex;
     flex-flow: column wrap;
@@ -55,15 +55,25 @@ form
     height: 100%;
     padding: 10px;
     border: red 1px solid;
-}
+} */
 
 #login
 {
-    margin: auto;
+    font-family: 'Roboto', sans-serif;
+    top: 560px;
+    left: 420px;
     display: block;
-    position: absolute;
-    right: 0;
-    bottom: 0;
+    position: relative;
+}
+
+#submitButton
+{
+    top: 550px;
+    position: relative;
+    margin: 10px;
+    height: 40%;
+    width: 30%;
+    left: 400px;
 }
 
 #submit-button
@@ -72,9 +82,8 @@ form
     right: 0;
     bottom: 0;
     left: 0;
-    /* padding: 10px; */
     font-size: 20px;
-    background-color: #596D48;
+    /* background-color: #596D48; */
     color: #FFFFFF;
     border-radius: 13px;
 }
